@@ -10,7 +10,13 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('home'.tr),
+        title: GetBuilder<AppLanguage>(
+          init: AppLanguage(),
+          builder: (controller) {
+            return Text('home'.tr);
+          },
+        )
+
       ),
       body:
       GetBuilder<AppLanguage>(

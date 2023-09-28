@@ -1,6 +1,5 @@
 // ignore_for_file: depend_on_referenced_packages, always_use_package_imports
 import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
